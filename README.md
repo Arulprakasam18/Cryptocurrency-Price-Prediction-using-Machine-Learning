@@ -3,22 +3,24 @@
 # CryptoCurrency prediction using Deep Recurrent Neural Networks
 This repository contains various Machine learning models used in industry to predict stock prices and cryptocurrency in finance industry.
 
-Fundamental analysis of the stock price using Yahoo Finance
-Data Visualization using Seaborn
-ARIMA model to capture the trends,seasonality, forecast the prices and use as a baseline
-Simpler machine learning models (Random Forest, Regression etc)
-Recurrent Neural Networks / Long Short Term Memory Networks
-Each model is compared against each other to highlight pros and cons of each model.
+•	Fundamental analysis of the stock price using Yahoo Finance
+•	Data Visualization using Seaborn
+•	ARIMA model to capture the trends,seasonality, forecast the prices and use as a baseline
+•	Simpler machine learning models (Random Forest, Regression etc)
+•	Recurrent Neural Networks / Long Short Term Memory Networks
+•	Each model is compared against each other to highlight pros and cons of each model.
+
 
 # Install
 This project requires Python and the following Python libraries installed:
 
-NumPy
-Pandas
-matplotlib
-scikit-learn
-[fastai]
-[pytorch]
+•	NumPy
+•	Pandas
+•	matplotlib
+•	scikit-learn
+•	[fastai]
+•	[pytorch]
+
 You will also need to have software installed to run and execute a Jupyter Notebook
 
 If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included.
@@ -30,6 +32,7 @@ The source code is divided into multiple sections following the machine learning
 In a terminal or command window, navigate to the top-level project directory boston_housing/ (that contains this README) and run one of the following commands:
 
 ipython notebook BitcoinPredictionRNN.ipynb
+
 or
 
 jupyter notebook BitcoinPredictionRNN.ipynb
